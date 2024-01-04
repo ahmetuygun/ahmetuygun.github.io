@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/2T94JeRikbaB.eot");
+  src: url("../fonts/2T94JeRikbaB.eot#iefix") format("embedded-opentype"),
+    url("../fonts/4dqfwymy0OBv.ttf") format("truetype"),
+    url("../fonts/1EY3nJG5RTEV.woff") format("woff"),
+    url("../images/8w4lWnL3rfvG.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-x-times:before {
+  content: "\e904";
+}
+.icon-chevron-up:before {
+  content: "\e905";
+}
+.icon-chevron-down:before {
+  content: "\e906";
+}
+.icon-hamburger:before {
+  content: "\e903";
+}
+.icon-chevron-left-bold:before {
+  content: "\e900";
+}
+.icon-chevron-right-bold:before {
+  content: "\e901";
+}
+.icon-chevron-right-outline:before {
+  content: "\e902";
+}
+
+.text-body-color {
+  --tw-text-opacity: 1;
+  color: rgb(149 156 177/var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(74 108 247/var(--tw-text-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 108 247/var(--tw-bg-opacity));
+}
