@@ -22081,7 +22081,7 @@
                     }, " Necessary only "), Zi("button", {
                         id: "acceptCookies",
                         type: "button",
-                        class: "flex w-full md:w-auto items-center justify-center font-medium text-xs text-center px-[16px] py-[8px] rounded-[60px] cursor-pointer text-white border border-[#5152FB] bg-[#5152FB]",
+                        class: "flex w-full md:w-auto items-center justify-center font-medium text-xs text-center px-[16px] py-[8px] rounded-[60px] cursor-pointer text-[#5152FB] border border-[#5152FB] bg-white",
                         onClick: s[3] || (s[3] = function (e) {
                             return r()
                         })
